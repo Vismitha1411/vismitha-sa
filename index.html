@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vismitha | Dora Meme</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 20px 10px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 380px;
+      background: #202020;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    header {
+      background: white;
+      color: #111;
+      padding: 14px;
+    }
+
+    h1 {
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+
+    header a {
+      color: #6396b5;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .dora {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px;
+    }
+
+    .dora img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+
+    .reaction img {
+      width: 100%;
+      display: block;
+    }
+
+    footer {
+      padding: 15px;
+      text-align: center;
+      color: #71d9e5;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>WTF DID THEY DO TO DORA</h1>
+      <a href="#reaction">Show this thread</a>
+    </header>
+
+    <section class="dora">
+      <img src="dora-classic.jpg" alt="Classic Dora">
+      <img src="dora-new.jpg" alt="New Dora">
+    </section>
+
+    <section class="reaction" id="reaction">
+      <img src="obiwan-reaction.jpg" alt="Obi-Wan reaction meme">
+    </section>
+
+    <footer>Created by Vismitha ❤️</footer>
+  </main>
+</body>
+</html>
